@@ -1,15 +1,11 @@
 name: End-to-end tests
-on:
-  push:
-    branches: [ $default-branch ]
-  pull_request:
-    branches: [ $default-branch ]
+on: [push]
 
 jobs:
    cypress-run:
 
     runs-on: ubuntu-latest
-
+   
     strategy:
       matrix:
         node-version: [14.x]
