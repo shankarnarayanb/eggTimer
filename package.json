@@ -1,5 +1,5 @@
 {
-  "name": "eggtimer-sample ",
+  "name": "eggtimer-sample",
   "version": "1.0.0",
   "description": "This project is to automate e.ggtimer.com and verify the Coundown timer",
   "scripts": {
