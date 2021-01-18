@@ -1,0 +1,8 @@
+{
+  "ignoreTestFiles": "*.js",
+  "testFiles": "**/*.{feature,features}",
+  "chromeWebSecurity": false,
+  "env": {
+    "allureResultsPath": "someFolder/results"
+}
+}
